@@ -42,7 +42,7 @@ const Index = () => {
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop&crop=center" 
+                    src="https://i.imgur.com/1RuhxOw.jpg" 
                     alt="Modernes Bauwerk" 
                     className="w-full h-96 object-cover"
                   />
