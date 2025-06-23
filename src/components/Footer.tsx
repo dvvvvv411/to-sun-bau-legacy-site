@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Building2, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -9,10 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Building2 className="h-6 w-6 text-white" />
-              </div>
+            <div className="mb-6">
               <h3 className="text-xl font-bold">To-Sun Bau GmbH</h3>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
