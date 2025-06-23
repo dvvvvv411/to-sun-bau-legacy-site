@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '../components/Layout';
 import InsolvencyNotice from '../components/InsolvencyNotice';
@@ -142,7 +143,7 @@ const Index = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="https://i.imgur.com/1RuhxOw.jpg" 
+                  src="https://i.imgur.com/izaOBW5.jpeg" 
                   alt="Bauunternehmen" 
                   className="w-full h-96 object-cover rounded-xl shadow-lg"
                 />
