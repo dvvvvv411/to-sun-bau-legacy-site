@@ -2,7 +2,6 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import InsolvencyPopup from './InsolvencyPopup';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -16,7 +15,6 @@ const Layout = ({ children }: LayoutProps) => {
         {children}
       </main>
       <Footer />
-      <InsolvencyPopup />
     </div>
   );
 };
