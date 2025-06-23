@@ -8,32 +8,14 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
-const InsolvencyPopup = () => {
-  const [isOpen, setIsOpen] = useState(false);
+interface InsolvencyPopupProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
 
-  useEffect(() => {
-    // Check if user has already seen the popup today
-    const lastSeen = localStorage.getItem('insolvencyPopupLastSeen');
-    const today = new Date().toDateString();
-    
-    if (lastSeen !== today) {
-      // Show popup after a short delay
-      const timer = setTimeout(() => {
-        setIsOpen(true);
-      }, 1000);
-      
-      return () => clearTimeout(timer);
-    }
-  }, []);
-
-  const handleClose = () => {
-    setIsOpen(false);
-    // Remember that user has seen the popup today
-    localStorage.setItem('insolvencyPopupLastSeen', new Date().toDateString());
-  };
-
+const InsolvencyPopup = ({ isOpen, onClose }: InsolvencyPopupProps) => {
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+    <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-md mx-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center text-orange-800 font-bold text-lg">
@@ -98,7 +80,7 @@ const InsolvencyPopup = () => {
         </div>
         
         <button
-          onClick={handleClose}
+          onClick={onClose}
           className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
         >
           <X className="h-4 w-4" />
