@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import { Building2, MapPin, Phone, Mail, Clock, Navigation } from 'lucide-react';
@@ -106,62 +105,6 @@ const Kontakt = () => {
                       und ist gut mit öffentlichen Verkehrsmitteln sowie dem Auto erreichbar.
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Services Overview */}
-        <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  Was wir für Sie tun können
-                </h2>
-                <p className="text-xl text-gray-600">
-                  Umfassende Bauleistungen aus einer Hand
-                </p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-8 rounded-xl shadow-lg">
-                  <div className="relative mb-6">
-                    <img 
-                      src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=400&h=200&fit=crop&crop=center" 
-                      alt="Hochbau Dienstleistungen" 
-                      className="w-full h-40 object-cover rounded-lg"
-                    />
-                    <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg">
-                      <span className="text-sm font-semibold text-blue-600">Hochbau</span>
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Hochbauarbeiten</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Rohbauarbeiten und Maurerarbeiten</li>
-                    <li>• Betonarbeiten und Sanierungen</li>
-                    <li>• Umbaumaßnahmen und Renovierungen</li>
-                  </ul>
-                </div>
-
-                <div className="bg-white p-8 rounded-xl shadow-lg">
-                  <div className="relative mb-6">
-                    <img 
-                      src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?w=400&h=200&fit=crop&crop=center" 
-                      alt="Tiefbau Dienstleistungen" 
-                      className="w-full h-40 object-cover rounded-lg"
-                    />
-                    <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg">
-                      <span className="text-sm font-semibold text-blue-600">Tiefbau</span>
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Tiefbauarbeiten</h3>
-                  <ul className="space-y-2 text-gray-600">
-                    <li>• Erdarbeiten und Fundamentarbeiten</li>
-                    <li>• Kanalbau und Straßenbauarbeiten</li>
-                    <li>• Pflasterarbeiten und Drainage-Systeme</li>
-                  </ul>
                 </div>
               </div>
             </div>
