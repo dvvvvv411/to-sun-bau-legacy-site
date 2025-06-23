@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-center text-gray-400 text-sm">
-              © 2024 To-Sun Bau GmbH. Alle Rechte vorbehalten.
+              © 2025 To-Sun Bau GmbH. Alle Rechte vorbehalten.
             </p>
             <div className="mt-4 md:mt-0">
               <div className="bg-red-900/20 border border-red-500/30 px-4 py-2 rounded-lg">
