@@ -39,7 +39,7 @@ const Leistungen = () => {
               <div className="bg-white border border-gray-200 shadow-lg rounded-xl overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=300&fit=crop&crop=center" 
+                    src="https://i.imgur.com/13fj2fB.jpeg" 
                     alt="Hochbau Arbeiten" 
                     className="w-full h-64 object-cover"
                   />
@@ -89,7 +89,7 @@ const Leistungen = () => {
               <div className="bg-white border border-gray-200 shadow-lg rounded-xl overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?w=600&h=300&fit=crop&crop=center" 
+                    src="https://i.imgur.com/izaOBW5.jpeg" 
                     alt="Tiefbau Arbeiten" 
                     className="w-full h-64 object-cover"
                   />
