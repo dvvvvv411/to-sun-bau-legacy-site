@@ -13,7 +13,7 @@ const Header = () => {
             <div className="bg-blue-700 p-2 rounded-lg">
               <Building2 className="h-8 w-8 text-white" />
             </div>
-            <Link to="/" className="text-blue-800 text-2xl font-bold no-underline hover:text-blue-600 transition-colors">
+            <Link to="/" className="text-blue-800 text-2xl font-bold font-playfair no-underline hover:text-blue-600 transition-colors">
               To-Sun Bau GmbH
             </Link>
           </div>
