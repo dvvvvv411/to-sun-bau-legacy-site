@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import InsolvencyNotice from '../components/InsolvencyNotice';
@@ -98,7 +97,7 @@ const Index = () => {
               
               <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?w=600&h=300&fit=crop&crop=center" 
+                  src="https://i.imgur.com/izaOBW5.jpeg" 
                   alt="Tiefbau" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
