@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Building2, MapPin, Phone, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -47,9 +48,25 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-center text-gray-400 text-sm">
-              © 2025 To-Sun Bau GmbH. Alle Rechte vorbehalten.
-            </p>
+            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <p className="text-center text-gray-400 text-sm">
+                © 2025 To-Sun Bau GmbH. Alle Rechte vorbehalten.
+              </p>
+              <div className="flex space-x-4 text-sm">
+                <Link 
+                  to="/impressum" 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Impressum
+                </Link>
+                <Link 
+                  to="/datenschutz" 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Datenschutz
+                </Link>
+              </div>
+            </div>
             <div className="mt-4 md:mt-0">
               <div className="bg-red-900/20 border border-red-500/30 px-4 py-2 rounded-lg">
                 <p className="text-red-300 text-xs font-medium">
