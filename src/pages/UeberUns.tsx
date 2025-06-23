@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Layout from '../components/Layout';
-import { Building2, Users, Award, Target, Clock, Shield } from 'lucide-react';
+import { Building2, Users, Award, Target, Clock, Shield, Phone, Mail, Globe } from 'lucide-react';
 
 const UeberUns = () => {
   return (
@@ -160,14 +160,55 @@ const UeberUns = () => {
         </section>
 
         {/* Insolvency Notice */}
-        <section className="py-12 bg-red-50">
+        <section className="py-20 bg-orange-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto bg-red-100 border border-red-200 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-red-800 mb-4">Wichtiger Hinweis</h3>
-              <p className="text-red-700 text-lg leading-relaxed">
-                Die To-Sun Bau GmbH befindet sich in Insolvenz. Für alle geschäftlichen Angelegenheiten 
-                wenden Sie sich bitte an den zuständigen Insolvenzverwalter.
-              </p>
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-orange-100 border border-orange-200 rounded-xl p-8">
+                <h3 className="text-2xl font-bold text-orange-800 mb-6">Herzlichen Dank für Ihr Vertrauen</h3>
+                <p className="text-orange-700 text-lg leading-relaxed mb-6">
+                  Wir bedanken uns herzlich für Ihr Vertrauen und Ihre Unterstützung in den vergangenen Jahren. Leider müssen wir Ihnen mitteilen, dass über das Vermögen der To-Sun Bau GmbH das Insolvenzverfahren eröffnet wurde. Für alle weiteren Anliegen wenden Sie sich bitte an unseren Insolvenzverwalter.
+                </p>
+                
+                <div className="bg-white/50 p-6 rounded-lg">
+                  <h4 className="text-lg font-bold text-orange-800 mb-4">
+                    Insolvenzverwalter
+                  </h4>
+                  <div className="space-y-3 text-sm text-orange-700">
+                    <div>
+                      <p className="font-medium text-orange-900 mb-3">
+                        Lonquich, Külper & Kollegen Rechtsanwälte PartG, Frankfurt a. Main
+                      </p>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <div className="flex items-center space-x-3">
+                        <Phone className="h-4 w-4 text-orange-600 flex-shrink-0" />
+                        <span>+49 69 94321306</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <Mail className="h-4 w-4 text-orange-600 flex-shrink-0" />
+                        <a 
+                          href="mailto:info@kuelper-kanzlei.de"
+                          className="text-orange-700 hover:text-orange-600 underline"
+                        >
+                          info@kuelper-kanzlei.de
+                        </a>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <Globe className="h-4 w-4 text-orange-600 flex-shrink-0" />
+                        <a 
+                          href="https://kuelper-kanzlei.de"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-orange-700 hover:text-orange-600 underline"
+                        >
+                          kuelper-kanzlei.de
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
