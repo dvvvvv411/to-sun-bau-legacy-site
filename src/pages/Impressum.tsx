@@ -23,7 +23,7 @@ const Impressum = () => {
                     <MapPin className="h-4 w-4 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <p>Waldschmidtstr. 67</p>
-                      <p>D-60316 Frankfurt a. Main</p>
+                      <p>60316 Frankfurt a. Main</p>
                     </div>
                   </div>
                 </div>
@@ -34,9 +34,9 @@ const Impressum = () => {
                 <div className="space-y-2 text-gray-700">
                   <div className="flex items-center space-x-2">
                     <Mail className="h-4 w-4 text-blue-600" />
-                    <p>E-Mail: info@to-sun-bau.de</p>
+                    <p>E-Mail: https://tosun-baumaschinen.de</p>
                   </div>
-                  <p>Internet: www.to-sun-bau.de</p>
+                  <p>Internet: tosun-baumaschinen.de</p>
                 </div>
               </div>
 
@@ -44,20 +44,20 @@ const Impressum = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Handelsregister</h3>
                 <div className="text-gray-700 space-y-1">
                   <p>Registergericht: Amtsgericht Frankfurt am Main</p>
-                  <p>Registernummer: HRB 123456</p>
+                  <p>Registernummer: HRB 124951</p>
                 </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Geschäftsführung</h3>
-                <p className="text-gray-700">Mustafa Özkan</p>
+                <p className="text-gray-700">George Tataru</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Umsatzsteuer-ID</h3>
                 <p className="text-gray-700">
                   Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-                  DE123456789
+                  DE545976064
                 </p>
               </div>
 
