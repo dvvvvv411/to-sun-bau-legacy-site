@@ -1,14 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import InsolvencyNotice from '../components/InsolvencyNotice';
 import { Building2, Hammer, Users, Award } from 'lucide-react';
 
 const Index = () => {
   return (
     <Layout>
       <div className="min-h-screen">
-        <InsolvencyNotice />
-        
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-transparent"></div>
