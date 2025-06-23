@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import { Building2, Hammer, Users, Award } from 'lucide-react';
@@ -15,7 +14,7 @@ const Index = () => {
               <div className="space-y-8">
                 <div>
                   <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Willkommen bei <span className="text-blue-700">To-Sun Bau GmbH</span>
+                    Willkommen bei<br /><span className="text-blue-700">To-Sun Bau GmbH</span>
                   </h1>
                   <p className="text-xl text-gray-600 leading-relaxed">
                     Ihr kompetenter Partner für Hoch- und Tiefbauarbeiten aller Art in Frankfurt am Main und Umgebung.
