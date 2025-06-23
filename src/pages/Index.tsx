@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '../components/Layout';
 import { Building2, Hammer, Users, Award } from 'lucide-react';
@@ -128,11 +129,11 @@ const Index = () => {
                 </p>
                 <div className="grid grid-cols-2 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
+                    <div className="text-3xl font-bold text-blue-600 mb-2">4+</div>
                     <div className="text-gray-600">Jahre Erfahrung</div>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-blue-600 mb-2">100+</div>
+                    <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
                     <div className="text-gray-600">Projekte</div>
                   </div>
                 </div>
