@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import { Hammer, Building2, Wrench, Truck, HardHat, CheckCircle } from 'lucide-react';
@@ -202,7 +201,7 @@ const Leistungen = () => {
                   <div className="text-blue-100">Qualitätsstandard</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                  <div className="text-3xl font-bold text-white mb-2">15+</div>
+                  <div className="text-3xl font-bold text-white mb-2">4+</div>
                   <div className="text-blue-100">Jahre Erfahrung</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">

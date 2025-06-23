@@ -62,7 +62,7 @@ const Kontakt = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div className="bg-gray-50 p-4 rounded-lg text-center">
                         <Clock className="h-6 w-6 text-blue-600 mx-auto mb-2" />
-                        <p className="text-sm font-medium text-gray-700">Seit 2008</p>
+                        <p className="text-sm font-medium text-gray-700">Seit 4 Jahren</p>
                         <p className="text-xs text-gray-600">Im Geschäft</p>
                       </div>
                       <div className="bg-gray-50 p-4 rounded-lg text-center">
